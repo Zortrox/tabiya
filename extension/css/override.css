@@ -1,0 +1,112 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-size: cover;
+}
+#body-wrapper {
+	overflow: auto;
+}
+
+.material-icons {
+	vertical-align: middle;
+}
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#dashboard button {
+	display: block;
+}
+
+#filedrag {
+	text-align: center;
+	padding: 30px 10px;
+	border: 3px dashed #ccc;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+#filedrag.hover {
+	border-color: #aca;
+}
+#filedrag .material-icons {
+	vertical-align: middle;
+}
+#fileselect {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+#filedrag label{
+	font-weight: bold;
+	color: black;
+	cursor: pointer;
+}
+#filedrag .material-icons {
+	font-size: 100px;
+	color: #ddd;
+}
+
+.modal .modal-body {
+	padding-top: 0;
+}
+.modal .card-nav-tabs {
+	margin-top: 0;
+}
+
+.gallery-img {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 23.5%;
+	margin-right: 2%;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.gallery-images > div:nth-of-type(4n) {
+	margin-right: 0;
+}
+.gallery-images .gallery-img-bkgd {
+	width: 100%;
+	height: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.gallery-img-controls {
+	background: #333;
+	border-top: 1px solid #464646;
+	color: white;
+	padding: 5px;
+	text-align: left;
+}
+.gallery-img-controls i {
+	font-size: 18px;
+	padding: 3px;
+	margin-right: 5px;
+	border-radius: 5px;
+	box-shadow: inset 0 0 6px black;
+}
+.gallery-img-controls i:hover {
+	box-shadow: inset 0 0 3px black;
+}
+.gallery-img-controls .btn-delete {
+	float: right;
+	margin-right: 0;
+}
